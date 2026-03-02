@@ -38,7 +38,7 @@ namespace SwipeElements.Infrastructure.Services.LevelDataProvider.Extensions
                 data.elements.Add(elementData);
             }
             
-            return JsonConvert.SerializeObject(data, JsonSettings.Settings);;
+            return JsonConvert.SerializeObject(data, JsonSettings.Settings);
         }
 
         public static LevelData Deserialize(this string text)
